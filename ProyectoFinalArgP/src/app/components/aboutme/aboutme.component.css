@@ -1,0 +1,17 @@
+.row{
+    padding: 20px;
+}
+
+div{
+    text-align: center;
+    background-color: lightgrey;
+}
+
+#profilepic {
+    border-radius: 100%;
+    margin-top: -15%;
+}
+
+#fullname{
+    font-weight: bold;
+}

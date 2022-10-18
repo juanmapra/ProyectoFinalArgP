@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoap{
+    width: 150px;
+    filter:none
+}
+
+.socials{
+    margin-right: 0,5em;
+}
+
+img{
+
+    padding-right: 5px;
+    padding-bottom: 5px;
+    width: 45px;
+    filter: invert(1)
+}
+
+@media (max-width: 575px){
+    .container{
+        flex-direction: column;
+    }
+    .socials{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #logoap{
+        align-self: center;
+    }
+}
